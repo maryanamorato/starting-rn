@@ -35,6 +35,21 @@ return(
         title="Go to Square Screen :)"
       />
 
+      <Button 
+        onPress={() => {navigation.navigate('Text')}}
+        title="Go to Text Screen :)"
+      />
+
+      <Button 
+        onPress={() => {navigation.navigate('Pass')}}
+        title="Go to Pass Screen :)"
+      />
+
+      <Button 
+        onPress={() => {navigation.navigate('Box')}}
+        title="Go to Box Screen :)"
+      />
+
       <TouchableOpacity onPress={() => navigation.navigate('Lists')}>
         <Text>Go to Lists Screen :D</Text>
       </TouchableOpacity>
